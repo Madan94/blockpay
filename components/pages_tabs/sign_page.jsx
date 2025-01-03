@@ -23,7 +23,7 @@ const SignPageScreen = () => {
             </View>
             <TouchableOpacity style={styles.signInButton}>
                 <Text style={styles.signInText} onPress={() => {
-                    navigation.navigate('BlockPayStep1')
+                    navigation.navigate('signup')
                 }}>Sign up→</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.signUpButton}>
